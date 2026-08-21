@@ -4,7 +4,7 @@
 // ----------------------
 // Access Point Settings
 // ----------------------
-const char* ssid = "AGV_WEEK11";
+const char* ssid = "AGV";
 const char* password = "12345678";
 
 // Create Web Server
