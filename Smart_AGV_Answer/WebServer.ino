@@ -28,7 +28,7 @@ String webpage = R"rawliteral(
       padding:30px 10px;
       user-select:none;
       -webkit-user-select:none;
-      touch-action:none;
+      touch-action:pan-y;
     }
     h1{ color:#1f3c88; }
     p{ color:#333; }
@@ -48,6 +48,7 @@ String webpage = R"rawliteral(
       color:white;
       background:#1f7aec;
       box-shadow:0 5px 0 #1556a8;
+      touch-action:none;
     }
     .btn:active{
       transform:translateY(4px);
